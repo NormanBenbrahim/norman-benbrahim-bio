@@ -5,15 +5,19 @@ body {
 
 #main-navbar {
 	font-family: Kanit;
-	background-color: DarkGrey;
+	background-color: #595959;
 }
+
 
 .box-shadow {
 	box-shadow: 3px 3px 7px black;
 }
 
+/* Navbar brand name*/
 #my-name {
 	color: black;
+	text-shadow: 2px 2px 4px #e6e6ff;
+	border-bottom: 2px solid black;
 }
 
 .li-nav-name {
@@ -35,21 +39,10 @@ responsive design
 	color: black;
 }
 
-/*
-#jmb2 {
-	border-bottom: 2px solid #70380f;
-}*/
-
-/*
-.on-top {
-	font-family: Kanit;
-	font-size: 20px;
-	color: #333333;
-}
-*/
-
 
 .hover-over-me {
 	background-color: #09dcbd;
+	border: 1px solid black;
+	box-shadow: 2px 2px 5px black;
 }
 
