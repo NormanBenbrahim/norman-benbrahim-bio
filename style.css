@@ -9,7 +9,15 @@ body {
 }
 
 .box-shadow {
-	box-shadow: 3px 3px 1px #888888;
+	box-shadow: 3px 3px 7px black;
+}
+
+#my-name {
+	color: black;
+}
+
+.li-nav-name {
+	font-size: 18px;
 }
 
 /* Make a proper background image class. Wrap it in a container-fluid for 
