@@ -1,0 +1,47 @@
+/* Padding for the navbar */
+body { 
+	padding-top: 50px;
+}
+
+#main-navbar {
+	font-family: Kanit;
+	background-color: DarkGrey;
+}
+
+.box-shadow {
+	box-shadow: 3px 3px 1px #888888;
+}
+
+/* Make a proper background image class. Wrap it in a container-fluid for 
+responsive design
+.bgimage {
+	background-image: url('http://img03.deviantart.net/df81/i/2007/286/1/5/hardwood_w_lights_by_zyklophon.jpg');
+	background-size: 100%;
+}*/
+
+
+/* Remove the ugly gray background from the jumbotron */
+.jumbotron {
+	background-color: transparent;
+	font-family: Kanit;
+	color: black;
+}
+
+/*
+#jmb2 {
+	border-bottom: 2px solid #70380f;
+}*/
+
+/*
+.on-top {
+	font-family: Kanit;
+	font-size: 20px;
+	color: #333333;
+}
+*/
+
+
+.hover-over-me {
+	background-color: #09dcbd;
+}
+
