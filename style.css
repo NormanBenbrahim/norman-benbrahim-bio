@@ -1,15 +1,35 @@
 /* Padding for the navbar */
 body { 
 	padding-top: 50px;
+	background: 
+		url('http://img03.deviantart.net/df81/i/2007/286/1/5/hardwood_w_lights_by_zyklophon.jpg') no-repeat top, 
+		url('https://wallpaperscraft.com/image/bark_wood_background_texture_18502_1680x1050.jpg') bottom;
+		background-width: 100%, 100%;
+}		
+
+/* :::::::: Make a proper background image class ::::::::::::
+There will be 3 usable bg images of varying sizes*/
+
+/* For use in background sizes md and up 
+.bgimg-md {
+	background-image: url('http://img03.deviantart.net/df81/i/2007/286/1/5/hardwood_w_lights_by_zyklophon.jpg') ;
+	background-size: 100%;
 }
+*/
+/* For ba sizes sm*/
+.bgimg-sm {
+
+}
+
 
 #main-navbar {
-	font-family: Kanit;
+	font-family: Kanit, Verdana;
 	background-color: #595959;
+	opacity: 0.88;
 }
 
-
-.box-shadow {
+/* Shadow for social media buttons*/
+.media-shadow {
 	box-shadow: 3px 3px 7px black;
 }
 
@@ -17,32 +37,70 @@ body {
 #my-name {
 	color: black;
 	text-shadow: 2px 2px 4px #e6e6ff;
-	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 3px solid black;
 }
 
+/* For the navigation bar buttons*/
 .li-nav-name {
 	font-size: 18px;
 }
-
-/* Make a proper background image class. Wrap it in a container-fluid for 
-responsive design
-.bgimage {
-	background-image: url('http://img03.deviantart.net/df81/i/2007/286/1/5/hardwood_w_lights_by_zyklophon.jpg');
-	background-size: 100%;
-}*/
 
 
 /* Remove the ugly gray background from the jumbotron */
 .jumbotron {
 	background-color: transparent;
-	font-family: Kanit;
+	font-family: Kanit, Verdana;
 	color: black;
 }
 
-
+/* For hover events in interact.js */
 .hover-over-me {
 	background-color: #09dcbd;
 	border: 1px solid black;
 	box-shadow: 2px 2px 5px black;
 }
+
+/* To add space on top of the jumbotron */
+.jumbo-mar {
+	margin-top: 60px;
+}
+
+/* To add space between social media buttons and a border*/
+.mar {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+  }
+
+
+ /* For the self taught portion of the text */
+.self-taught {
+	color: DarkGrey;
+	font-weight: bold;
+}
+
+/* For padding between div containers*/
+.page-pad {
+	margin-bottom: 250px;
+}
+
+/* General round white border on element*/
+.white-border {
+	border: 2px solid white;
+	border-radius: 4px;
+}
+
+/* Picture of me and loki */
+.me-n-loki {
+	height: 200px;
+	width: 200px;
+	border: 2px solid #fcf5eb;
+	border-radius: 45%;
+}
+
+
+
+
+
 
