@@ -7,9 +7,6 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css"> 
 
-<!-- jQuery ::: DONT USE THIS ONE, it's too new
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
--->
 <!-- This version of jQuery is compatible with bootstrap-->
 <script src="https://code.jquery.com/jquery-1.12.0.js"></script>
 
@@ -28,92 +25,102 @@
 
 
 <body>
-	<!-- ::::::::::::::: Main Container :::::::::::::: -->
-	<!-- container-fluid -->
-	<div class="container-fluid bgimg-md" id="pg1"> 
-			
-		<!-- ::::::::::::: Navigation bar :::::::::::::::: -->
-		<!-- navbar navbar-default navbar-fixed-top -->
-		<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="main-navbar"> 
 
-			<!-- container -->
-			<div class="container"> 
+	<!-- ::::::::::::::: First Page :::::::::::::: -->
+	<!-- first-page -->
+	<div class="first-page"> 
+		
+		<!-- container-fluid -->
+		<div class="container-fluid bgimg-md" id="pg1"> 
 				
-				<!-- navbar-header -->
-				<div class="navbar-header"> 
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="sr-only">Toggle navigation</span><!--screen reading devices only-->
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
+			<!-- ::::::::::::: Navigation bar :::::::::::::::: -->
+			<!-- navbar navbar-default navbar-fixed-top -->
+			<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="main-navbar"> 
 
-					<span class="navbar-brand" id="my-name">Norman Benbrahim <i class="fa fa-hand-peace-o"></i></span>		
-				</div>
-				<!-- /navbar-header -->
+				<!-- container -->
+				<div class="container"> 
+					
+					<!-- navbar-header -->
+					<div class="navbar-header"> 
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span><!--screen reading devices only-->
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
 
-				<!-- navbar -->
-				<div class="navbar-collapse collapse navbar-right"> 
-					<ul class="nav navbar-nav">
-						<li id="home" class="li-nav-name"><a href="#"><i class="fa fa-home"></i> Home</a></li>
-						<li id="about" class="li-nav-name"><a href="#"><i class="fa fa-info"></i> About</a></li>
-						<li id="contact" class="li-nav-name"><a href="#"><i class="fa fa-user-plus"></i> Contact</a></li>
-						<li id="portfolio" class="li-nav-name"><a href="#"><i class="fa fa-paperclip"></i> Portfolio </a></li>
-					</ul>						
-				</div>
-				<!-- /navbar -->				
-			
-			</div>
-			<!-- /container -->
+						<span class="navbar-brand" id="my-name">Norman Benbrahim <i class="fa fa-hand-peace-o"></i></span>		
+					</div>
+					<!-- /navbar-header -->
 
-		</div>
-		<!-- /navbar navbar-default navbar-fixed-top -->
-
-
-
-		<!-- ::::::::::::: Jumbotron :::::::::::::: -->
-			
-		<!-- jumbotron -->
-		<div class="jumbotron" style="margin-bottom: 0px; padding-bottom: 0px"> 
-
-			<!-- container -->
-			<div class="container jumbo-mar" style="border-bottom: 2px solid black"> 
-
-				<p class="text-center" style="text-shadow: 1px 1px 5px #333333; color: #fcf5eb; font-size: 70px">Elefun Web Solutions</p1>
-				<p class="text-center">Fun, Modern Web Development.</p>				
-			</div>
-			<!-- /container -->
-
-
-		</div>
-		<!-- /jumbotron -->	
-
-		<!-- ::::::::::::: Social media buttons :::::::::::::: -->
-		<!-- row -->
-		<div class="row"> 
+					<!-- navbar -->
+					<div class="navbar-collapse collapse navbar-right"> 
+						<ul class="nav navbar-nav">
+							<li id="home" class="li-nav-name"><a href="#"><span style="color:DarkGray"><i class="fa fa-home"></i> Home</span></a></li>
+							<li id="about" class="li-nav-name"><a href="#about"><span style="color:DarkGray"><i class="fa fa-info"></i> About</span></a></li>
+							<li id="portfolio" class="li-nav-name"><a href="#portfolio"><span style="color:DarkGray"><i class="fa fa-paperclip"></i> Portfolio </span></a></li>							
+							<li id="contact" class="li-nav-name"><a href="#contact"><span style="color:DarkGray"><i class="fa fa-user-plus"></i> Contact</span></a></li>
+						</ul>						
+					</div>
+					<!-- /navbar -->				
 				
-			<!-- col-xs-4 col-sm-2 col-xs-offset-4 col-md-12 col-md-offset-0 -->
-			<div class="col-xs-4 col-sm-2 col-xs-offset-4 col-md-12 col-md-offset-0"> 
-	
-				<!-- text-center -->
-				<div class="text-center">
-					<ul class="btn-toolbar pagination social-buttons">
-						<li class="btn btn-default btn-lg media-shadow mar" id="twitter"><i class="fa fa-twitter"></i> Twitter </li>
-						<li class="btn btn-default btn-lg media-shadow mar" id="github"><i class="fa fa-github"></i> Github </li>
-						<li class="btn btn-default btn-lg media-shadow mar" id="linkedin"><i class="fa fa-linkedin"></i> Linkedin </li>
-						<li class="btn btn-default btn-lg media-shadow mar" id="freecodecamp"><i class="fa fa-fire"></i> freeCodeCamp </li>
-					</ul>
 				</div>
-				<!-- /text-center -->	
+				<!-- /container -->
 
 			</div>
-			<!-- /col-xs-4 col-sm-2 col-xs-offset-4 col-md-12 col-md-offset-0 -->
+			<!-- /navbar navbar-default navbar-fixed-top -->
 
+
+
+			<!-- ::::::::::::: Jumbotron :::::::::::::: -->
+			<a name="home"></a>	
+			<!-- jumbotron -->
+			<div class="jumbotron" style="margin-bottom: 0px; padding-bottom: 0px"> 
+
+				<!-- container -->
+				<div class="container jumbo-mar" style="border-bottom: 2px solid black"> 
+
+					<p class="text-center" style="text-shadow: 1px 1px 5px #333333; color: #fcf5eb; font-size: 70px">Elefun Web Solutions</p1>
+					<p class="text-center" style="color: #fcf5eb;">Fun, Modern Web Development.</p>				
+				</div>
+				<!-- /container -->
+
+
+			</div>
+			<!-- /jumbotron -->	
+
+			<!-- ::::::::::::: Social media buttons :::::::::::::: -->
+			<!-- row -->
+			<div class="row" style="padding-top: 220px"> 
+					
+				<!-- col-xs-4 col-sm-2 col-xs-offset-4 col-md-12 col-md-offset-0 -->
+				<div class="col-xs-4 col-sm-2 col-xs-offset-4 col-md-12 col-md-offset-0"> 
+		
+					<!-- text-center -->
+					<div class="text-center">
+						<ul class="btn-toolbar pagination social-buttons">
+							<a href="https://twitter.com/elefun" target="_blank"><li class="btn btn-default btn-lg media-shadow mar"><i class="fa fa-twitter"></i> Twitter </li></a>
+							<a href="https://github.com/NormanBenbrahim" target="_blank"><li class="btn btn-default btn-lg media-shadow mar"><i class="fa fa-github"></i> Github </li></a>
+							<a href="https://ca.linkedin.com/in/nbenbrahim" target="_blank"><li class="btn btn-default btn-lg media-shadow mar"><i class="fa fa-linkedin"></i> Linkedin </li></a>
+							<a href="http://www.freecodecamp.com/normanbenbrahim" target="_blank"><li class="btn btn-default btn-lg media-shadow mar"><i class="fa fa-fire"></i> freeCodeCamp </li></a>
+						</ul>
+					</div>
+					<!-- /text-center -->	
+
+				</div>
+				<!-- /col-xs-4 col-sm-2 col-xs-offset-4 col-md-12 col-md-offset-0 -->
+
+			</div>
+			<!-- /row -->
+		
 		</div>
-		<!-- /row -->
-	
+		<!-- /container-fluid -->		
+
+
 	</div>
-	<!-- /container-fluid -->
+	<!-- /first-page -->
+
+
 
 
 
@@ -124,93 +131,346 @@
 
 
 	<!-- ::::::::::::::: Second Page :::::::::::::: -->
-	<!-- container-fluid -->
-	<div class="container-fluid" id="pg2"> 
+	<a name="about"></a>	
+	<!-- second-page -->
+	<div class="second-page"> 
 		
-		<!-- row -->
-		<div class="row"> 
-		
+		<!-- container-fluid -->
+		<div class="container-fluid"> 
+			
+			<!-- row -->
+			<div class="row"> 
+			
 
 
-			<!-- col-sm-5 col-sm-offset-1 col-md-4 col-lg-4 -->
-			<div class="col-sm-5 col-sm-offset-1 col-md-6 col-lg-6"> 
-				
-				<span style="font-size:45px; color: #fcf5eb; font-family: Kanit, Verdana">
-					<p>
-						Elefun Web Solutions.
-					</p>
-				</span>	
+				<!-- col-sm-5 col-sm-offset-1 col-md-4 col-lg-4 -->
+				<div class="col-sm-5 col-sm-offset-1 col-md-6 col-lg-6"> 
+					
+					<span style="font-size:55px; text-shadow: 1px 1px 5px #333333; color: #fcf5eb; font-family: Kanit, Verdana">
+						<p>
+							Elefun Web Solutions.
+						</p>
+					</span>	
+
+				</div>
+				<!-- /col-sm-5 col-sm-offset-1 col-md-4 col-lg-4 -->
+			
+			</div>
+			<!-- /row -->
+
+				<!-- col-sm-6 -->
+				<div class="col-sm-5 col-md-6 col-md-offset-1 col-lg-4 white-border"> 
+					
+					<span style="font-size: 25px; color: #fcf5eb; font-family: Kanit, Verdana">
+						<p>
+							My name is Norman. I am a <a href="http://www.freecodecamp.com/normanbenbrahim" target="_blank"><span class="self-taught">self taught</span></a> web developer and aspiring data scientist.<br>
+							My passion is to use technology and statistics to solve problems and explore hidden information lost in a sea of data.<br> 
+							Competences:<br>
+							Javascript, HTML5, CSS3, Bootstrap3, R, Python, Matlab<br>
+							Tools & Expertise:<br>
+							Responsive Web Design, Machine Learning & Statistics, Web Applications
+						</p>
+					</span>	
+
+				</div>
+				<!-- /col-sm-6 -->
+
+				<!--  col-sm-4 col-sm-offset-2 col-md-4 col-lg-4 hidden-xs -->
+				<div class="col-sm-4 col-sm-offset-2 col-md-3 col-lg-4 hidden-xs"> 
+					
+					<img src="http://s13.postimg.org/c5cltk0d3/me_n_loki.jpg" alt="Smiley face" class="me-n-loki img-responsive">		
+
+				</div>
+				<!-- /col-sm-4 col-sm-offset-2 col-md-4 col-lg-4 hidden-xs -->	
+
 
 			</div>
-			<!-- /col-sm-5 col-sm-offset-1 col-md-4 col-lg-4 -->
-		
+			<!-- /row -->
+
+
 		</div>
-		<!-- /row -->
-
-			<!-- col-sm-6 -->
-			<div class="col-sm-5 col-md-6 col-md-offset-1 col-lg-4 white-border"> 
-				
-				<span style="font-size: 20px; color: #fcf5eb; font-family: Kanit, Verdana">
-					<p>
-						My name is Norman. I am a <span class="self-taught">self taught</span> web developer and aspiring data scientist. I am currently part of a small superteam in an upcoming start-up, building web-based data solutions for businesses. We also dabble in general web and mobile applications.<br>
-						My passion is to use technology and statistics to solve problems and explore hidden information lost in a sea of data.<br> 
-						Competences:<br>
-						Javascript, HTML5, CSS3, Bootstrap3, R, Python, Matlab<br>
-						Tools & Expertise:<br>
-						Responsive Web Design, Machine Learning & Statistics, Web Applications
-					</p>
-				</span>	
-
-			</div>
-			<!-- /col-sm-6 -->
-
-			<!--  col-sm-4 col-sm-offset-2 col-md-4 col-lg-4 hidden-xs -->
-			<div class="col-sm-4 col-sm-offset-2 col-md-3 col-lg-4 hidden-xs"> 
-				
-				<img src="http://s13.postimg.org/c5cltk0d3/me_n_loki.jpg" alt="Smiley face" class="me-n-loki img-responsive">		
-
-			</div>
-			<!-- /col-sm-4 col-sm-offset-2 col-md-4 col-lg-4 hidden-xs -->	
-
-
-		</div>
-		<!-- /row -->
-
+		<!-- /container-fluid -->		
 
 	</div>
-	<!-- /container-fluid -->
+	<!-- /second-page -->
+
+
+
+
+
 
 
 
 
 	<!-- ::::::::::::::: Third Page :::::::::::::: -->
-	<!-- container-fluid -->
-	<div class="container-fluid"> 
-		
-		<!-- row -->
-		<div class="row"> 
-			
-			<!-- text-center -->
-			<div class="text-center"> 
+	<a name="portfolio"></a>
 
-				<span id="awesomeness-portfolio">
-					<p>Awesomeness Portfolio.</p>
-				<span>
+	<!-- third-page -->
+	<div class="third-page"> 
+
+
+		<!-- container-fluid -->
+		<div class="container-fluid"> 
+			
+			<!-- row -->
+			<div class="row"> 
+				
+				<!-- text-center -->
+				<div class="text-center"> 
+
+					<span id="awesomeness-portfolio">
+						<p>Awesomeness Portfolio.</p>
+					<span>
+
+				</div>
+				<!-- /text-center -->
 
 			</div>
-			<!-- /text-center -->
+			<!-- /row -->
+
+			<!-- row -->
+			<div class="row"> 
+
+				<!-- col-sm-6 col-md-4 -->
+				<div class="col-sm-6 col-md-4"> 
+				
+					<!-- Project 1 -->
+					<!-- portfolio-box -->
+					<div class="portfolio-box text-center"> 
+						
+						<p style="font-size: 24px;"> Coming soon...</p>
+
+					</div>
+					<!-- /portfolio-box -->
+
+				</div>
+				<!-- /col-sm-6 col-md-4 -->
+
+				<!-- col-sm-6 col-md-4 -->
+				<div class="col-sm-6 col-md-4"> 
+				
+					<!-- Project 1 -->
+					<!-- portfolio-box -->
+					<div class="portfolio-box text-center"> 
+						
+						<p style="font-size: 24px;"> Coming Soon...</p>
+
+					</div>
+					<!-- /portfolio-box -->
+					
+				</div>
+				<!-- /col-sm-6 col-md-4 -->
+
+
+
+				<!-- col-sm-6 col-md-4 -->
+				<div class="col-sm-6 col-md-4"> 
+				
+					<!-- Project 1 -->
+					<!-- portfolio-box -->
+					<div class="portfolio-box text-center"> 
+						
+						<p style="font-size: 24px;"> Coming Soon...</p>
+
+					</div>
+					<!-- /portfolio-box -->
+					
+				</div>
+				<!-- /col-sm-6 col-md-4 -->
+
+				
+			</div>
+			<!-- /row -->
+	
+
+
+			<!-- row -->	
+			<div class="row"> 
+				
+				<!-- col-sm-6 col-md-4 -->
+				<div class="col-sm-6 col-md-4"> 
+				
+					<!-- Project 1 -->
+					<!-- portfolio-box -->
+					<div class="portfolio-box text-center"> 
+						
+						<p style="font-size: 24px;"> Coming soon...</p>
+
+					</div>
+					<!-- /portfolio-box -->
+
+				</div>
+				<!-- /col-sm-6 col-md-4 -->
+
+
+				<!-- col-sm-6 col-md-4 -->
+				<div class="col-sm-6 col-md-4"> 
+				
+					<!-- Project 1 -->
+					<!-- portfolio-box -->
+					<div class="portfolio-box text-center"> 
+						
+						<p style="font-size: 24px;"> Coming soon...</p>
+
+					</div>
+					<!-- /portfolio-box -->
+
+				</div>
+				<!-- /col-sm-6 col-md-4 -->
+
+
+				<!-- col-sm-6 col-md-4 -->
+				<div class="col-sm-6 col-md-4"> 
+				
+					<!-- Project 1 -->
+					<!-- portfolio-box -->
+					<div class="portfolio-box text-center"> 
+						
+						<p style="font-size: 24px;"> Coming soon...</p>
+
+					</div>
+					<!-- /portfolio-box -->
+
+				</div>
+				<!-- /col-sm-6 col-md-4 -->				
+
+
+			</div>	
+			<!-- /row -->
 
 		</div>
-		<!-- /row -->
+		<!-- /container-fluid -->
+
+
+	</div>
+	<!-- /third-page -->
+
+
+
+
+
+
+
+
+
+	<!-- ::::::::::::::: Fourth Page :::::::::::::: -->
+	<!-- fourth-page -->
+	<a name="contact"></a>
+	<div class="fourth-page"> 
+		
+
+		<!-- ::::::::::::::: Visible only on md and larger :::::::::::::::-->
+		<!-- row hidden-sm hidden-xs -->
+		<div class="row hidden-sm hidden-xs"> 
+			
+			<!-- col-md-4 col-lg-4 col-md-offset-1-->
+			<div class="col-md-4 col-lg-4 col-md-offset-1"> 
+				
+				<h2 style="font-family: Kanit, Verdana; ">
+					Connect with me:<br>
+					normanbenbrahim@gmail.com
+				</h2>				
+
+			</div>
+			<!-- /col-md-4 col-lg-4 col-md-offset-1-->
+
+
+			<!-- col-md-2 col-md-offset-2 col-lg-5 -->
+			<div class="col-md-2 col-md-offset-2 col-lg-1"> 
+				
+				<!-- text-center -->
+				<div class="text-center">
+					<ul class="btn-toolbar pagination social-buttons">
+						<a href="https://twitter.com/elefun" target="_blank"><li class="btn btn-default btn-lg media-shadow mar"><i class="fa fa-twitter"></i> Twitter </li></a>
+						<a href="https://github.com/NormanBenbrahim" target="_blank"><li class="btn btn-default btn-lg media-shadow mar"><i class="fa fa-github"></i> Github </li></a>
+						<a href="https://ca.linkedin.com/in/nbenbrahim" target="_blank"><li class="btn btn-default btn-lg media-shadow mar"><i class="fa fa-linkedin"></i> Linkedin </li></a>
+						<a href="http://www.freecodecamp.com/normanbenbrahim" target="_blank"><li class="btn btn-default btn-lg media-shadow mar"><i class="fa fa-fire"></i> freeCodeCamp </li></a>
+					</ul>
+				</div>
+				<!-- /text-center -->
+
+			</div>
+			<!-- /col-md-2 col-md-offset-2 col-lg-5 -->
+
+		</div>
+		<!-- /row hidden-sm hidden-xs -->
+
+
+		<!-- ::::::::::::::: Visible on smaller screens :::::::::::::::-->
+		<!-- row visible-xs visible-sm -->
+		<div class="row visible-xs visible-sm"> 
+			
+			<!-- col-sm-4 col-xs-4 -->
+			<div class="col-sm-3 col-xs-4 col-sm-offset-2 col-xs-offset-1"> 
+				
+				<h3 style="font-family: Kanit, Verdana; ">
+					Connect with me:<br>
+					normanbenbrahim@gmail.com
+				</h3>		
+
+				<!-- text-center -->
+				<div class="text-center">
+					<ul class="btn-toolbar pagination social-buttons">
+						<a href="https://twitter.com/elefun" target="_blank"><li class="btn btn-default btn-lg media-shadow mar"><i class="fa fa-twitter"></i> Twitter </li></a>
+						<a href="https://github.com/NormanBenbrahim" target="_blank"><li class="btn btn-default btn-lg media-shadow mar"><i class="fa fa-github"></i> Github </li></a>
+						<a href="https://ca.linkedin.com/in/nbenbrahim" target="_blank"><li class="btn btn-default btn-lg media-shadow mar"><i class="fa fa-linkedin"></i> Linkedin </li></a>
+						<a href="http://www.freecodecamp.com/normanbenbrahim" target="_blank"><li class="btn btn-default btn-lg media-shadow mar"><i class="fa fa-fire"></i> freeCodeCamp </li></a>
+					</ul>
+				</div>
+				<!-- /text-center -->					
+
+			</div>
+			<!-- /col-sm-4 col-xs-4 -->
+
+		</div>
+		<!-- /row visible-xs visible-sm -->
 
 
 
 	</div>
-	<!-- /container-fluid -->
+	<!-- /fourth-page -->
 
 
 
 
+
+
+
+
+	<!-- ::::::::::::::: The footer ::::::::::::::-->
+	<footer>
+		
+		<!-- container -->
+		<div class="container"> 
+
+			<!-- row -->
+			<div class="row"> 
+				
+				<!-- col-lg-12 -->
+				<div class="col-lg-12"> 
+
+					<ul class="list-inline">
+						<li><a href="#"> Home </a></li>
+						<li><a href="#about">About </a></li>
+						<li><a href="#portfolio"> Portfolio </a></li>
+						<li><a href="#contact"> Contact </a></li>
+					</ul>
+
+					<p style='font-size: 11px; color: #595959
+'> Copyright &copy; Elefun Web Design 2016. All Rights Reserved.</p>
+
+				</div>
+				<!-- /col-lg-12 -->
+
+			</div>
+			<!-- /row -->
+			
+
+
+		</div>
+		<!-- /container -->
+
+	</footer>
 
 
 

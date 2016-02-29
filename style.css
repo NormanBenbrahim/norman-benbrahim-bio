@@ -1,11 +1,48 @@
-/* Padding for the navbar */
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+/* Padding for the navbar and general light gray background all around*/
 body { 
 	padding-top: 50px;
-	background: 
-		url('http://img03.deviantart.net/df81/i/2007/286/1/5/hardwood_w_lights_by_zyklophon.jpg') no-repeat top, 
-		url('https://wallpaperscraft.com/image/bark_wood_background_texture_18502_1680x1050.jpg') bottom;
-		background-width: 100%, 100%;
+	background: #d9d9d9;
 }		
+
+/* Background image for first page*/
+.first-page {
+	background: url('https://wallpaperscraft.com/image/boards_stripes_background_wooden_texture_50670_1680x1050.jpg') no-repeat center center fixed;
+	background-size: cover;
+	padding-bottom: 50px;
+	height: 1000px;
+}
+
+/* Background image for second page*/
+.second-page {
+	background: url('https://wallpaperscraft.com/image/wooden_colorful_boards_background_band_50705_1680x1050.jpg') no-repeat center center fixed;
+	background-size: cover;
+	padding-bottom: 50px;
+	padding-top: 200px;
+	height: 1050px;
+}
+
+/* Background image for third page*/
+.third-page {
+	background: url('https://wallpaperscraft.com/image/paper_clips_string_wood_brown_background_80064_1680x1050.jpg0') no-repeat center center fixed;
+	background-size: cover;
+	padding-bottom: 50px;
+	padding-top: 200px;
+	height: 1050px;
+}
+
+/* Background image for fourth page */
+.fourth-page {
+	background: url('https://wallpaperscraft.com/image/apple_macbook_concept_design_table_cup_disk_74335_1680x1050.jpg') no-repeat center center fixed;
+	background-size: cover;
+	padding-bottom: 50px;
+	padding-top: 200px;
+	height: 1050px;
+}
 
 #main-navbar {
 	font-family: Kanit, Verdana;
@@ -16,6 +53,7 @@ body {
 /* Shadow for social media buttons*/
 .media-shadow {
 	box-shadow: 3px 3px 7px black;
+	text-shadow: 0.5px 0.5px 1px DarkGray;
 }
 
 /* Navbar brand name*/
@@ -41,7 +79,7 @@ body {
 
 /* For hover events in interact.js */
 .hover-over-me {
-	background-color: #09dcbd;
+	background-color: #06937e;
 	border: 1px solid black;
 	box-shadow: 2px 2px 5px black;
 }
@@ -65,16 +103,13 @@ body {
 	font-weight: bold;
 }
 
-/* For padding between div containers*/
-#pg2 {
-	margin-top: 800px;
-	margin-bottom: 400px;
-}
+
 
 /* General round white border on element*/
 .white-border {
 	border: 2px solid white;
 	border-radius: 4px;
+	box-shadow: 2px 2px 3px;
 }
 
 /* Picture of me and loki :) */
@@ -83,6 +118,7 @@ body {
 	width: 230px;
 	border: 2px solid #fcf5eb;
 	border-radius: 45%;
+	box-shadow: 2px 2px 3px;
 }
 
 /* Hover event on social media buttons */
@@ -99,10 +135,24 @@ body {
 
 
 #awesomeness-portfolio {
-	color: #990000;
+	color: #b3b300;
 	font-family: Kanit, Verdana;
 	font-size: 60px;
 
 }
 
+.portfolio-box {
+	border: 2px solid black;
+	color: #b3b300;
+	padding: 5px 5px 5px 10px;
+	margin: 10px 0px 0px 0px;
+}
+
+.portfolio-box:hover {
+	box-shadow: 4px 4px 3px black;
+	transition: 0.2s;
+	background-color: DarkGray;
+	color: black;
+	font-weight: bold;
+}
 
