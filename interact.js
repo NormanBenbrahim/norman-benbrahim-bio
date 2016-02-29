@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 // :::::: hover events for navbar :::::::::
 	// hover event for contact
@@ -37,13 +36,4 @@ $(document).ready(function(){
 			$(this).removeClass("hover-over-me")
 		});		
 
-// :::::: hover events for social media buttons :::::::::
-	// hover event for twitter
-	$("#twitter").hover(
-		function(){
-			$(this).addClass("test-hover")
-		},
-		function(){
-			$(this).removeClass("test-hover")
-		});
 }); 
